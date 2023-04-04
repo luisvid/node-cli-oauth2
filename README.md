@@ -9,7 +9,7 @@ This project is the sample CLI application code for the blog post [Build a Comma
 ### To test it:
 
 1. Run `npm install` from the command line in the project folder.
-2. Run the OAuth2 Server
+2. Run the [OAuth2 Server proyect](https://github.com/luisvid/node-express-oauth2-server)
 3. Install the CLI app globally using `npm install -g .`
     
     After installing the CLI app globally, you will have the commands: 
