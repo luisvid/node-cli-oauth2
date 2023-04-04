@@ -1,0 +1,32 @@
+{
+  "name": "node-cli-auth",
+  "version": "0.1.1",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "eslint": "eslint --fix src/*.js bin/*.js",
+    "pkce-login": "node bin/pkceLogin.js",
+    "code-login": "node bin/codeGrantLogin.js",
+    "credentials-login": "node bin/redentialsLogin.js"
+  },
+  "keywords": [],
+  "author": "luisvid",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js",
+    "pkce-login": "./bin/pkceLogin.js",
+    "code-login": "./bin/codeGrantLogin.js",
+    "cred-login": "./bin/credentialsLogin.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "axios": "^1.3.4",
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "dotenv": "^8.0.0",
+    "eslint": "^8.37.0",
+    "open": "^6.3.0",
+    "uuid": "^3.3.2",
+    "yargs": "^13.2.4"
+  }
+}
